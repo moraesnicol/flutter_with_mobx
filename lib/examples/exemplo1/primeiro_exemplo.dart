@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-
 import 'controller.dart';
 
 class PrimeiroExemplo extends StatelessWidget {
@@ -11,7 +10,7 @@ class PrimeiroExemplo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("MobX"),
+        title: Text("Primeiro Exemplo MobX"),
         actions: [
           IconButton(
               icon: Icon(Icons.arrow_forward_ios_rounded), onPressed: () {})

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'examples/example1/primeiro_exemplo.dart';
+import 'examples/exemplo1/primeiro_exemplo.dart';
+import 'examples/exemplo2/segundo_exemplo.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: PrimeiroExemplo(),
+      home: SegundoExemplo(),
     );
   }
 }
