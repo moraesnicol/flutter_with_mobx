@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutter_with_mobx/controller.dart';
 
-class HomePage extends StatelessWidget {
+
+import 'controller.dart';
+
+class PrimeiroExemplo extends StatelessWidget {
   final controller = Controller();
 
   @override
@@ -10,6 +12,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("MobX"),
+        actions: [
+          IconButton(
+              icon: Icon(Icons.arrow_forward_ios_rounded), onPressed: () {})
+        ],
       ),
       body: Center(
         child: Column(
