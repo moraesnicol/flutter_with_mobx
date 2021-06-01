@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutter_with_mobx/controler.dart';
+import 'package:flutter_with_mobx/controller.dart';
 
 class HomePage extends StatelessWidget {
   final controller = Controller();
